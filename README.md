@@ -1,6 +1,6 @@
 <!-- ───────────────────────────── BANNER ───────────────────────────── -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:06FFA5,100:00E5FF&height=220&section=header&text=%E6%9D%8E%E8%B4%A4&fontSize=80&fontColor=06FFA5&fontAlign=50&fontAlignY=35&animation=fadeIn&desc=AI%20Agent%20Engineer%20%C2%B7%20Cloud%20Native&descSize=16&descColor=B026FF&descAlignY=56" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:06FFA5,100:00E5FF&height=220&section=header&text=gFIT&fontSize=80&fontColor=FFFFFF&stroke=000000&strokeWidth=1&fontAlign=50&fontAlignY=35&animation=fadeIn&desc=AI%20Agent%20Engineer%20%C2%B7%20Cloud%20Native&descSize=16&descColor=FFFFFF&descAlignY=58" alt="banner" />
 </p>
 
 <p align="center">
@@ -113,8 +113,13 @@
 <h2>📊 GitHub Stats</h2>
 
 <p align="center">
-  <!-- Top Languages · 暗色赛博配色 -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lllxxxxxlll&layout=compact&hide_border=true&bg_color=0d1117&title_color=06FFA5&text_color=c9d1d9&icon_color=B026FF&langs_count=8&card_width=460" alt="top langs" />
+  <!-- Top Languages · 用 Cloudflare Worker 反代镜像，绕开 Vercel 国内访问问题。
+       备用镜像（主挂了可替换域名部分）：
+         · https://github-readme-stats.nicehash-tw.workers.dev/api/top-langs/
+         · https://readmestats.99981.xyz/api/top-langs/
+         · https://stats.justsong.cn/api/top-langs/
+  -->
+  <img src="https://api-github-readme-stats.nicehash-tw.workers.dev/api/top-langs?username=lllxxxxxlll&layout=compact&hide_border=true&bg_color=0d1117&title_color=06FFA5&text_color=c9d1d9&icon_color=B026FF&langs_count=8&card_width=460" alt="top langs" />
 </p>
 
 <br />
