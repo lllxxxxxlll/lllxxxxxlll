@@ -1,11 +1,36 @@
-<!-- ───────────────────────────── BANNER ───────────────────────────── -->
+<!-- ───────────────────────────── BANNER · 双主题适配 ─────────────────────────────
+     GitHub 官方主题适配方案：<picture>+<source media="(prefers-color-scheme:)">
+     Dark Mode ：深黑紫 → 霓虹紫 → 深青   gFIT 霓虹绿，赛博风
+     Light Mode：深蓝   → 紫罗兰 → 天蓝   gFIT 白色，干净不刺眼
+-->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:06FFA5,100:00E5FF&height=220&section=header&text=gFIT&fontSize=80&fontColor=FFFFFF&stroke=000000&strokeWidth=1&fontAlign=50&fontAlignY=35&animation=fadeIn&desc=AI%20Agent%20Engineer%20%C2%B7%20Cloud%20Native&descSize=16&descColor=FFFFFF&descAlignY=58" alt="banner" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1F1B2E,50:5B21B6,100:0E7490&height=200&section=header&text=gFIT&fontSize=65&fontColor=06FFA5&fontAlign=50&fontAlignY=36&animation=fadeIn&desc=AI%20Agent%20Engineer%20%C2%B7%20Cloud%20Native&descSize=15&descColor=A78BFA&descAlignY=58" />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A5F,50:7C3AED,100:0EA5E9&height=200&section=header&text=gFIT&fontSize=65&fontColor=FFFFFF&fontAlign=50&fontAlignY=36&animation=fadeIn&desc=AI%20Agent%20Engineer%20%C2%B7%20Cloud%20Native&descSize=15&descColor=E0E7FF&descAlignY=58" />
+    <img
+      src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A5F,50:7C3AED,100:0EA5E9&height=200&section=header&text=gFIT&fontSize=65&fontColor=FFFFFF&fontAlign=50&fontAlignY=36&animation=fadeIn&desc=AI%20Agent%20Engineer%20%C2%B7%20Cloud%20Native&descSize=15&descColor=E0E7FF&descAlignY=58"
+      alt="banner gFIT" />
+  </picture>
 </p>
 
+<!-- 站点 & STATUS 徽章 · 同样双主题 -->
 <p align="center">
-  <a href="https://lllxxxxxlll.github.io"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9-lllxxxxxlll.github.io-06FFA5?style=for-the-badge&logo=github&logoColor=0d1117&labelColor=0d1117" alt="personal site" /></a>
-  <img src="https://img.shields.io/badge/status-building...-B026FF?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=0d1117" alt="status" />
+  <!-- Dark Mode -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9-lllxxxxxlll.github.io-06FFA5?style=for-the-badge&logo=github&logoColor=0d1117&labelColor=0d1117#gh-dark-mode-only" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9-lllxxxxxlll.github.io-2563eb?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=f3f4f6#gh-light-mode-only" />
+    <a href="https://lllxxxxxlll.github.io"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9-lllxxxxxlll.github.io-2563eb?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=f3f4f6" alt="个人站点" /></a>
+  </picture>
+  <!-- STATUS -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/status-building...-B026FF?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=0d1117#gh-dark-mode-only" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/status-building...-7C3AED?style=for-the-badge&logo=visualstudiocode&logoColor=ffffff&labelColor=f3f4f6#gh-light-mode-only" />
+    <img src="https://img.shields.io/badge/status-building...-7C3AED?style=for-the-badge&logo=visualstudiocode&logoColor=ffffff&labelColor=f3f4f6" alt="status" />
+  </picture>
 </p>
 
 <!-- 打字机效果，host 用 demoleab 官方域（herokuapp 已停用） -->
@@ -25,7 +50,17 @@
 
 <!-- ───────────────────────────── MOTTO ───────────────────────────── -->
 <p align="center" style="margin-top: 4px; margin-bottom: 24px;">
-  <img src="https://img.shields.io/badge/Motto-Talk%20is%20cheap%2C%20show%20me%20the%20code%2C%20then%20go%20for%20it.-8B5CF6?style=flat&labelColor=0d1117&logo=linuxfoundation&logoColor=06FFA5" alt="motto" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://img.shields.io/badge/Motto-Talk%20is%20cheap%2C%20show%20me%20the%20code%2C%20then%20go%20for%20it.-8B5CF6?style=flat&labelColor=0d1117&logo=linuxfoundation&logoColor=06FFA5#gh-dark-mode-only" />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://img.shields.io/badge/Motto-Talk%20is%20cheap%2C%20show%20me%20the%20code%2C%20then%20go%20for%20it.-7C3AED?style=flat&labelColor=f3f4f6&logo=linuxfoundation&logoColor=2563eb#gh-light-mode-only" />
+    <img
+      src="https://img.shields.io/badge/Motto-Talk%20is%20cheap%2C%20show%20me%20the%20code%2C%20then%20go%20for%20it.-7C3AED?style=flat&labelColor=f3f4f6&logo=linuxfoundation&logoColor=2563eb"
+      alt="motto" />
+  </picture>
 </p>
 
 <br />
@@ -114,33 +149,66 @@
 
 <br />
 
-<!-- ───────────────────────────── STATS ───────────────────────────── -->
-<h2>📊 GitHub Stats</h2>
+<!-- ───────────────────────────── STATS · 纯 shields.io（永不挂，避开 github-readme-stats vercel 崩点）───────────────────────────── -->
+<h2>📊 Languages · Activity</h2>
 
 <p align="center">
-  <!-- Top Languages · 用 Cloudflare Worker 反代镜像，绕开 Vercel 国内访问问题。
-       备用镜像（主挂了可替换域名部分）：
-         · https://github-readme-stats.nicehash-tw.workers.dev/api/top-langs/
-         · https://readmestats.99981.xyz/api/top-langs/
-         · https://stats.justsong.cn/api/top-langs/
-  -->
-  <img src="https://api-github-readme-stats.nicehash-tw.workers.dev/api/top-langs?username=lllxxxxxlll&layout=compact&hide_border=true&bg_color=0d1117&title_color=06FFA5&text_color=c9d1d9&icon_color=B026FF&langs_count=8&card_width=460" alt="top langs" />
+  <strong>核心语言</strong> &nbsp;
+  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=ffffff" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=ffffff" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
+  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=000000" />
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=ffffff" />
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=ffffff" />
 </p>
+
+<p align="center">
+  <strong>GitHub 活动</strong> &nbsp;
+  <img alt="Followers" src="https://img.shields.io/github/followers/lllxxxxxlll?style=flat-square&logo=github&label=Followers&color=2563eb" />
+  <img alt="Commits" src="https://img.shields.io/github/commit-activity/y/lllxxxxxlll/lllxxxxxlll?style=flat-square&logo=git&logoColor=ffffff&label=Commits&color=16a34a" />
+  <img alt="Public Repos" src="https://img.shields.io/badge/dynamic/json?style=flat-square&logo=github&label=Public%20Repos&color=7C3AED&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Flllxxxxxlll" />
+  <img alt="PRs" src="https://img.shields.io/badge/dynamic/json?style=flat-square&logo=gitpullrequest&logoColor=ffffff&label=Total%20PRs&color=dc2626&query=%24.length&url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dis%253Apr%2Bauthor%253Alllxxxxxlll" />
+</p>
+
+<p align="center"><em>💡 说明：已移除 Top Languages 动态卡片（该服务 vercel/worker 镜像全崩）。
+改用官方 shields.io 徽章，GitHub CDN 托管 100% 可用。</em></p>
 
 <br />
 
 <!-- ───────────────────────────── SNAKE ───────────────────────────── -->
 <h2>🐍 Contribution Snake</h2>
 
-<!-- 该 SVG 由 .github/workflows/snake.yml 定时生成并推送到 output 分支 -->
-<!-- 首次需手动触发一次该 Action（Actions 页 → Generate Snake → Run workflow） -->
+<!-- 该 SVG 由 .github/workflows/snake.yml 定时生成并推送到 output 分支
+     Dark Mode  → dark.svg （绿/紫配色）
+     Light Mode → svg       （默认配色，亮底也好看）
+-->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lllxxxxxlll/lllxxxxxlll/output/github-contribution-grid-snake-dark.svg" alt="snake" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/lllxxxxxlll/lllxxxxxlll/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/lllxxxxxlll/lllxxxxxlll/output/github-contribution-grid-snake.svg#gh-light-mode-only" />
+    <img
+      src="https://raw.githubusercontent.com/lllxxxxxlll/lllxxxxxlll/output/github-contribution-grid-snake.svg"
+      alt="snake" />
+  </picture>
 </p>
 
 <br />
 
-<!-- ───────────────────────────── FOOTER ───────────────────────────── -->
+<!-- ───────────────────────────── FOOTER · 双主题 ───────────────────────────── -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:06FFA5,100:8B5CF6&height=120&section=footer" alt="footer" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0E7490,50:5B21B6,100:1F1B2E&height=120&section=footer#gh-dark-mode-only" />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:7C3AED,100:1E3A5F&height=120&section=footer#gh-light-mode-only" />
+    <img
+      src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:7C3AED,100:1E3A5F&height=120&section=footer"
+      alt="footer" />
+  </picture>
 </p>
