@@ -10,7 +10,7 @@
 
 <!-- 打字机效果，host 用 demoleab 官方域（herokuapp 已停用） -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=15&duration=2500&pause=800&color=06FFA5&center=true&vCenter=true&width=520&lines=whoami+%3F;AI+Agent+Engineer+%F0%9F%92%9C;Go+%2F+Cloud+Native+%2F+Distributed+RCA;infra+%E2%86%94+Agent" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=15&duration=2500&pause=800&color=06FFA5&center=true&vCenter=true&width=520&lines=whoami+%3F;AI+Agent+Engineer+%F0%9F%92%9C;Go+%2F+Cloud+Native+%2F+Distributed+RCA;infra+%E2%86%94+Agent;Talk+is+cheap+%C2%B7+Show+me+the+code;%F0%9F%9A%80+Then+go+for+it" alt="typing" />
 </p>
 
 <br />
@@ -22,6 +22,11 @@
 
 > 小红书数据存储中心实习生 / 2026 秋招 / 专注把 AI Agent 用在分布式根因分析自动化
 ```
+
+<!-- ───────────────────────────── MOTTO ───────────────────────────── -->
+<p align="center" style="margin-top: 4px; margin-bottom: 24px;">
+  <img src="https://img.shields.io/badge/Motto-Talk%20is%20cheap%2C%20show%20me%20the%20code%2C%20then%20go%20for%20it.-8B5CF6?style=flat&labelColor=0d1117&logo=linuxfoundation&logoColor=06FFA5" alt="motto" />
+</p>
 
 <br />
 
