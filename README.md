@@ -40,6 +40,21 @@
 
 <br />
 
+<!-- ───────────────────────────── EXPERIENCE ───────────────────────────── -->
+<h2>💼 实习经历 · Experience</h2>
+
+<h3>小红书 — RedKV 数据存储中心
+  <img align="right" src="https://img.shields.io/badge/2025.04--present-06FFA5?style=flat-square&labelColor=0d1117" alt="tenure" />
+</h3>
+<p><i>管控平台开发实习生</i></p>
+
+- 参与 <b>RedKV</b>（Redis 协议 + RocksDB 引擎）集群管控平台前后端开发
+- 负责集群健康巡检、告警分析、<b>根因定位</b> —— 探针测试节点状态
+- 完整运维链路：业务侧 → <code>Corvus (proxy)</code> → Node → <code>Engine (RocksDB)</code>
+- 从日常根因分析痛点出发，探索 <b>AI Agent 自动化值班</b> 方案
+
+<br />
+
 <!-- ───────────────────────────── TECH STACK ───────────────────────────── -->
 <h2>🛠 Tech Stack</h2>
 
